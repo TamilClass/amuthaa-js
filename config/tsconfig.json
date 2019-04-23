@@ -1,0 +1,19 @@
+{
+  "include": ["src/**/*.ts", "src/**/*.tsx", "typings/**/*.d.ts"],
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2017"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "lib/",
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2017"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-eslint-rules",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": ["**/lib/**", "**/node_modules/**"]
+  },
+  "rules": {
+    "no-constant-condition": true,
+    "prettier": true
+  },
+  "rulesDirectory": ["node_modules/tslint-eslint-rules/dist/rules"]
+}
